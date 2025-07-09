@@ -1,11 +1,19 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import { Navigation } from "@/components/Navigation";
+import { RewardsSection } from "@/components/RewardsSection";
+import { PromotionalOffers } from "@/components/PromotionalOffers";
+import { SpendingSection } from "@/components/SpendingSection";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
+    <div className="min-h-screen bg-gray-50">
+      <Navigation />
+      <div className="container mx-auto px-4 py-8 max-w-md">
+        <div className="space-y-6">
+          <RewardsSection />
+          <PromotionalOffers />
+          <SpendingSection />
+        </div>
       </div>
     </div>
   );
