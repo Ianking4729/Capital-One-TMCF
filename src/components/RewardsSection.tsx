@@ -13,21 +13,21 @@ interface AvailableReward {
 const availableRewards: AvailableReward[] = [
   {
     id: "1",
-    title: "Coffee Voucher",
+    title: "Thurdgood Marshall College Fund Donation",
     points: 500,
-    image: "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?w=300&h=200&fit=crop"
+    image: "images/pixelframe_album_cover.png" // Place your PNG in public/images/
   },
   {
     id: "2", 
     title: "Movie Ticket",
     points: 800,
-    image: "https://images.unsplash.com/photo-1489185078527-08140a2e1abb?w=300&h=200&fit=crop"
+    image: "images/pixelframe_album_cover.png"
   },
   {
     id: "3",
     title: "Gift Card",
     points: 1000,
-    image: "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=300&h=200&fit=crop"
+    image: "images/pixelframe_album_cover.png"
   }
 ];
 
