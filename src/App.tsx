@@ -6,27 +6,35 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import Index from "./pages/Index";
 
+// Import images
+import cap1Logo from "/images/Cap1logo.png";
+import travelIcon from "/images/Cap1-icons/Travel.png";
+import foodIcon from "/images/Cap1-icons/Food.png";
+import loungeIcon from "/images/Cap1-icons/Lounge.png";
+import onlineIcon from "/images/Cap1-icons/Online.png";
+import entertainmentIcon from "/images/Cap1-icons/Entr.png";
+
 const queryClient = new QueryClient();
 
 const users = [
 	{
 		name: "Taylor(old)",
-		pfp: "/Capital-One-TMCF/images/Cap1logo.png",
+		pfp: cap1Logo,
 		points: 2611,
 		availableRewards: [
-			{ id: "1", title: "Travel", points: "3%", image: "/Capital-One-TMCF/images/Cap1-icons/Travel.png" },
-      { id: "2", title: "Food", points: "2%", image: "/Capital-One-TMCF/images/Cap1-icons/Food.png" },
-      { id: "3", title: "Lounge", points: "1.5%", image: "/Capital-One-TMCF/images/Cap1-icons/Lounge.png" },
+			{ id: "1", title: "Travel", points: "3%", image: travelIcon },
+      { id: "2", title: "Food", points: "2%", image: foodIcon },
+      { id: "3", title: "Lounge", points: "1.5%", image: loungeIcon },
 		],
 	},
 	{
 		name: "Taylor(new)",
-		pfp: "/Capital-One-TMCF/images/Cap1logo.png",
+		pfp: cap1Logo,
 		points: 1340,
 		availableRewards: [
-			{ id: "1", title: "Online Shopping", points: "2.5%", image: "/Capital-One-TMCF/images/Cap1-icons/Online.png" },
-      { id: "2", title: "Food", points: "2.5%", image: "/Capital-One-TMCF/images/Cap1-icons/Food.png" },
-      { id: "3", title: "Entertainment", points: "1.5%", image: "/Capital-One-TMCF/images/Cap1-icons/Entr.png" },
+			{ id: "1", title: "Online Shopping", points: "2.5%", image: onlineIcon },
+      { id: "2", title: "Food", points: "2.5%", image: foodIcon },
+      { id: "3", title: "Entertainment", points: "1.5%", image: entertainmentIcon },
 		], 
 	},
 ];
@@ -167,7 +175,7 @@ const App = () => {
 							</button>
 							<div className="text-center">
 								<img 
-									src="/Capital-One-TMCF/images/Cap1logo.png" 
+									src={cap1Logo} 
 									alt="Capital One" 
 									className="w-16 h-16 mx-auto mb-4" 
 								/>

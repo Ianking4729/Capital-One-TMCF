@@ -1,6 +1,7 @@
 import { RewardsSection } from "@/components/RewardsSection";
 import { PromotionalOffers } from "@/components/PromotionalOffers";
 import { SpendingSection } from "@/components/SpendingSection";
+import flexPlusCard from "/images/FlexPlusCard.png";
 
 const Index = ({ user, onRewardClick }) => {
   return (
@@ -10,7 +11,7 @@ const Index = ({ user, onRewardClick }) => {
           {/* Card and Greeting Section */}
           <div className="flex flex-col items-center space-y-2 mb-6">
             <img
-              src="/Capital-One-TMCF/images/FlexPlusCard.png" // <-- Replace with your card image path
+              src={flexPlusCard}
               alt="Card"
             />
             <h2 className="text-lg font-semibold text-gray-800">
