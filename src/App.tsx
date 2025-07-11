@@ -23,7 +23,7 @@ const users = [
 		points: 2611,
 		availableRewards: [
 			{ id: "1", title: "Travel", points: "3%", image: travelIcon },
-      { id: "2", title: "Food", points: "2%", image: foodIcon },
+      { id: "2", title: "Dining", points: "2%", image: foodIcon },
       { id: "3", title: "Lounge", points: "1.5%", image: loungeIcon },
 		],
 	},
@@ -33,7 +33,7 @@ const users = [
 		points: 2611,
 		availableRewards: [
 			{ id: "1", title: "Online Shopping", points: "2.5%", image: onlineIcon },
-      { id: "2", title: "Food", points: "2.5%", image: foodIcon },
+      { id: "2", title: "Dining", points: "2.5%", image: foodIcon },
       { id: "3", title: "Entertainment", points: "1.5%", image: entertainmentIcon },
 		], 
 	},
