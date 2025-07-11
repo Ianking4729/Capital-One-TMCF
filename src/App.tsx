@@ -4,9 +4,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Index from "./pages/Index";
-import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
 
@@ -135,12 +133,7 @@ const App = () => {
 					</div>
 				</div>
 				{/* Main Content */}
-				<BrowserRouter>
-					<Routes>
-						<Route path="/" element={<Index user={activeUser} onRewardClick={handleRewardClick} />} />
-						<Route path="*" element={<NotFound />} />
-					</Routes>
-				</BrowserRouter>
+				<Index user={activeUser} onRewardClick={handleRewardClick} />
 				{showRewardModal && selectedReward && (
   <div className="fixed inset-0 bg-black bg-opacity-40 flex items-center justify-center z-50">
     <div className="bg-white rounded-lg shadow-lg p-6 max-w-sm w-full relative m-4">
