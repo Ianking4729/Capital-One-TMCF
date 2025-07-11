@@ -10,7 +10,7 @@ const Index = ({ user, onRewardClick }) => {
           {/* Card and Greeting Section */}
           <div className="flex flex-col items-center space-y-2 mb-6">
             <img
-              src="/Capital-One-TMCF/images/FlexPlusCard.png" // <-- Replace with your card image path
+              src="./images/FlexPlusCard.png" // <-- Replace with your card image path
               alt="Card"
             />
             <h2 className="text-lg font-semibold text-gray-800">
