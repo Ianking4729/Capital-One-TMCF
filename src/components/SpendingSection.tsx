@@ -45,7 +45,7 @@ export const SpendingSection = () => {
             <h3 className="text-sm font-medium text-gray-900 mb-1">
               Total December Spending
             </h3>
-            <div className="text-2xl font-bold text-gray-900 mb-2">$446.00</div>
+            <div className="text-2xl font-bold text-gray-900 mb-2">$6546.00</div>
             <p className="text-sm text-gray-600">
               You've spent <span className="font-semibold">{spentPercentage}%</span> of your monthly average.
             </p>
