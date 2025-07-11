@@ -18,7 +18,7 @@ const queryClient = new QueryClient();
 
 const users = [
 	{
-		name: "Taylor(old)",
+		name: "John(old)",
 		pfp: cap1Logo,
 		points: 2611,
 		availableRewards: [
@@ -28,9 +28,9 @@ const users = [
 		],
 	},
 	{
-		name: "Taylor(new)",
+		name: "John(new)",
 		pfp: cap1Logo,
-		points: 1340,
+		points: 2611,
 		availableRewards: [
 			{ id: "1", title: "Online Shopping", points: "2.5%", image: onlineIcon },
       { id: "2", title: "Food", points: "2.5%", image: foodIcon },
@@ -179,9 +179,8 @@ const App = () => {
 									Discover Your New Rewards Profile!
 								</h2>
 								<p className="text-gray-600 mb-4 text-sm leading-relaxed">
-									We've updated your rewards program with exciting new categories! 
-									Switch to your new profile to unlock better cashback rates on 
-									online shopping, dining, and entertainment.
+								We’ve noticed your spending patterns have shifted. 
+								Based on recent activity, we’ve found reward categories that may better align with your current lifestyle.
 								</p>
 								<div className="bg-blue-50 p-3 rounded-lg mb-4">
 									<p className="text-sm text-blue-800 font-medium">
@@ -197,7 +196,7 @@ const App = () => {
 									onClick={handleSwitchToNewProfile}
 									className="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700 transition-colors font-medium"
 								>
-									Switch to New Profile
+									Switch
 								</button>
 							</div>
 						</div>
