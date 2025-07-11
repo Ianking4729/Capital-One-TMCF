@@ -11,22 +11,22 @@ const queryClient = new QueryClient();
 const users = [
 	{
 		name: "Taylor(old)",
-		pfp: "/images/Cap1logo.png",
+		pfp: "/Capital-One-TMCF/images/Cap1logo.png",
 		points: 2611,
 		availableRewards: [
-			{ id: "1", title: "Travel", points: "3%", image: "/images/Cap1-icons/Travel.png" },
-      { id: "2", title: "Food", points: "2%", image: "/images/Cap1-icons/Food.png" },
-      { id: "3", title: "Lounge", points: "1.5%", image: "/images/Cap1-icons/Lounge.png" },
+			{ id: "1", title: "Travel", points: "3%", image: "/Capital-One-TMCF/images/Cap1-icons/Travel.png" },
+      { id: "2", title: "Food", points: "2%", image: "/Capital-One-TMCF/images/Cap1-icons/Food.png" },
+      { id: "3", title: "Lounge", points: "1.5%", image: "/Capital-One-TMCF/images/Cap1-icons/Lounge.png" },
 		],
 	},
 	{
 		name: "Taylor(new)",
-		pfp: "/images/Cap1logo.png",
+		pfp: "/Capital-One-TMCF/images/Cap1logo.png",
 		points: 1340,
 		availableRewards: [
-			{ id: "1", title: "Online Shopping", points: "2.5%", image: "/images/Cap1-icons/Online.png" },
-      { id: "2", title: "Food", points: "2.5%", image: "/images/Cap1-icons/Food.png" },
-      { id: "3", title: "Entertainment", points: "1.5%", image: "/images/Cap1-icons/Entr.png" },
+			{ id: "1", title: "Online Shopping", points: "2.5%", image: "/Capital-One-TMCF/images/Cap1-icons/Online.png" },
+      { id: "2", title: "Food", points: "2.5%", image: "/Capital-One-TMCF/images/Cap1-icons/Food.png" },
+      { id: "3", title: "Entertainment", points: "1.5%", image: "/Capital-One-TMCF/images/Cap1-icons/Entr.png" },
 		], 
 	},
 ];
@@ -167,7 +167,7 @@ const App = () => {
 							</button>
 							<div className="text-center">
 								<img 
-									src="/images/Cap1logo.png" 
+									src="/Capital-One-TMCF/images/Cap1logo.png" 
 									alt="Capital One" 
 									className="w-16 h-16 mx-auto mb-4" 
 								/>
