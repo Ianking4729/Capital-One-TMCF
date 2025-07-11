@@ -76,6 +76,10 @@ const App = () => {
 			<TooltipProvider>
 				<Toaster />
 				<Sonner />
+				{/* Debug message */}
+				<div style={{ position: 'fixed', top: 0, left: 0, background: 'red', color: 'white', padding: '10px', zIndex: 9999 }}>
+					React App is Loading! Active User: {activeUser.name}
+				</div>
 				{/* Navigation Bar */}
 				<div className="bg-white shadow-sm">
 					<div className="container mx-auto px-4">
